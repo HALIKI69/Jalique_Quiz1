@@ -18,7 +18,7 @@ public class JALIQUE_QUIZ1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Choose quiz number");
+        System.out.println("Choose quiz number: ");
        Scanner scn = new Scanner(System.in);
        int choice = scn.nextInt();
        switch (choice){
